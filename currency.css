@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    background-color: rgba(245, 222, 179, 0.585);
+    background-color: rgba(245, 222, 179, 0.747);
     padding: 50px 24px;
     border-radius: 10%;
     width: 700px;
@@ -23,11 +23,12 @@ body{
 }
 
 h1{
-    color: rgb(130, 75, 3);
+    color: rgb(255, 255, 255);
     margin-left: 72x;
     margin-bottom: 0.5em;
     font-family: sans-serif;
     text-align: center;
+    box-shadow: rgba(71, 69, 69, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .container .box{
@@ -44,9 +45,9 @@ select{
     height: 40px;
     font-size: 1.2em;
     cursor: pointer;
-    background: #66ffcc;
+    background: #1f1f1fa6;
     outline: none;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 0.2em 0;
     padding: 0 1em;
     border-radius: 10px;
@@ -60,9 +61,10 @@ input{
     margin: 0.2em 0;
     border-radius: 10px;
     border: none;
-    background: #cccccc;
+    background: #393939;
     outline: none;
     padding: 0 1em;
+    color: #fff;
 }
 
 .btn{
