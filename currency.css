@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgba(110, 152, 189, 0.174);
+    background-image: url('./cash.jpg');
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -13,17 +14,20 @@ body{
 }
 
 .container{
-    background-color: wheat;
-    padding: 10px 24px;
-    border-radius: 20px;
-    width: 500px;
+    background-color: rgba(245, 222, 179, 0.585);
+    padding: 50px 24px;
+    border-radius: 10%;
+    width: 700px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 h1{
-    color: rgb(208, 129, 25);
+    color: rgb(130, 75, 3);
     margin-left: 72x;
     margin-bottom: 0.5em;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .container .box{
